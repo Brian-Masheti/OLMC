@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1e3a8a" />
+    <meta name="description" content="Outreach Living Mountain Church - A place where faith moves mountains and lives are transformed through God's love" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/icon-192.png" />
+    <title>Outreach Living Mountain Church</title>
+  </head>
+  <body>
+    <script>
+      // Apply theme before React loads to prevent FOUC, but do not override React state
+      try {
+        const saved = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (!document.documentElement.classList.contains('dark') &&
+            (saved === 'dark' || (!saved && prefersDark))) {
+          document.documentElement.classList.add('dark');
+        }
+      } catch (e) {}
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

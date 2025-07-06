@@ -1,0 +1,15 @@
+/* Add Georgia Pro font-face (update the src URL to your actual font files) */
+@font-face {
+  font-family: 'Georgia Pro';
+  src: url('/fonts/GeorgiaPro-Regular.woff2') format('woff2'),
+       url('/fonts/GeorgiaPro-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@import "tailwindcss";
+
+body {
+  font-family: 'Georgia Pro', Georgia, serif;
+}
