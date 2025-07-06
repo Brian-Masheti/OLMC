@@ -1,5 +1,9 @@
 # Outreach Living Mountain Church Website
 
+[Live Demo](https://vercel.com/brian-mashetis-projects/olmc/4pjw4rDmwk36PZVnjkYxfjqYY9Dj)
+
+![Home Screenshot](images/home.png)
+
 A modern, mobile-friendly, and installable Progressive Web App (PWA) for Outreach Living Mountain Church, built with React, Vite, and Tailwind CSS.
 
 ## Features
