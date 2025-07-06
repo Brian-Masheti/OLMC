@@ -1,6 +1,6 @@
 # Outreach Living Mountain Church Website
 
-[Live Demo](https://vercel.com/brian-mashetis-projects/olmc/4pjw4rDmwk36PZVnjkYxfjqYY9Dj)
+[Live Demo](https://olmc-brian-mashetis-projects.vercel.app/)
 
 ![Home Screenshot](./public/images/home.png)
 
